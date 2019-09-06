@@ -1,6 +1,11 @@
-# ppa_app
+# FlutterMaps (OpenStreetMap) and Overpass API sample.
 
-PPA Application
+This sample showing how to work with FlutterMap using Open Street Maps(mapbox.com for instance) and Overpass API.
+
+Features:
+  - loading map
+  - loading some POI(Point of intetest) types via Overpass API
+  - showing POIs on a map using MapCluster
 
 ## Getting Started
 
