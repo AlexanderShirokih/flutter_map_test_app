@@ -1,5 +1,5 @@
-name: ppa_app
-description: PPA Application
+name: maps_sample
+description: Flutter Maps sample application
 version: 1.0.0+1
 
 environment:
@@ -28,9 +28,6 @@ dependencies:
 
   #XML parser
   xml: ^3.5.0
-
-  #Geolocation
-  geolocator: ^5.0.0
 
 dev_dependencies:
   flutter_test:
