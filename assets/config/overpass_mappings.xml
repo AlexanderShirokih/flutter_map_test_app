@@ -1,0 +1,36 @@
+<?xml version="1.0"?><!DOCTYPE map SYSTEM "overpass_mappings.dtd">
+<map>
+    <!-- groups in a single batch will be fetched by one request -->
+    <batch>
+        <group type="food_point">
+            <node>
+                <key name="amenity" value="cafe" />
+            </node>
+            <node>
+                <key name="amenity" value="restaurant" />
+            </node>
+            <node>
+                <key name="amenity" value="fast_food" />
+            </node>
+        </group>
+
+        <group type="atm">
+            <node>
+                <key name="amenity" value="atm" />
+            </node>
+            <node>
+                <key name="amenity" value="bank" />
+                <key name="atm" value="yes" />
+            </node>
+        </group>
+
+        <group type="shop">
+            <node>
+                <key name="amenity" strict="no" value="market" />
+            </node>
+            <node>
+                <key name="amenity" strict="no" value="shop" />
+            </node>
+        </group>
+    </batch>
+</map>

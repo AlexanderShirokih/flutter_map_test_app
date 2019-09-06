@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:endColor="#087ED2"
+                android:startColor="#69C0FF" />
+        </shape>
+
+    </item>
+
+    <item
+        android:top="244dp"
+        android:bottom="244dp"
+        android:left="134dp"
+        android:right="134dp"
+        android:gravity="center"
+        android:drawable="@drawable/ic_one_man_walking" />
+
+</layer-list>

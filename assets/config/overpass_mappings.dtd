@@ -1,0 +1,9 @@
+<!ELEMENT map (batch|group)>
+    <!ELEMENT batch (group+)>
+    <!ELEMENT group (node+)>
+    <!ELEMENT node (key+)>
+    <!ELEMENT key (#PCDATA)>
+    <!ATTLIST group type (food_point|atm|shop|playground|greenarea|sos|street_furniture|green_area) #REQUIRED>
+    <!ATTLIST key name CDATA #REQUIRED>
+    <!ATTLIST key value CDATA #REQUIRED>
+    <!ATTLIST key strict (yes|no) "yes">

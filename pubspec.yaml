@@ -1,0 +1,46 @@
+name: ppa_app
+description: PPA Application
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+
+  #Flutter SDK
+  flutter:
+    sdk: flutter
+
+  #Localization tools
+  flutter_localizations:
+    sdk: flutter
+
+  #SVG support
+  flutter_svg: ^0.14.0
+
+  #OSM Maps support
+  flutter_map: any
+  flutter_map_marker_cluster: any
+  latlong: ^0.6.1
+
+  #HTTP client
+  http: any
+
+  #XML parser
+  xml: ^3.5.0
+
+  #Geolocation
+  geolocator: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/config/
